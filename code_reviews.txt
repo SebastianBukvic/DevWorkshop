@@ -1,0 +1,41 @@
+Similarities:
+1. Focus on Code Quality: Both Yelp and Microsoft emphasize the importance of code quality in their
+code reviewer guidelines. They encourage reviewers to pay attention to readability, maintainability, 
+performance, and adherence to best practices.
+2. Emphasis on Collaboration: Both companies stress the importance of fostering a collaborative and 
+respectful environment during code reviews. They encourage reviewers to provide constructive feedback 
+and engage in discussions to improve the codebase collectively.
+
+Differences:
+1. Tooling and Workflow: Microsoft's guidelines, particularly those for the Visual Studio Mobile team,
+may include specific instructions or recommendations for utilizing tools and integrating code review 
+into their development workflow within Visual Studio or related tools. Yelp's guidelines may focus more
+on general best practices and collaboration strategies without specific tooling recommendations.
+2. Scope of Review: The scope of code review may vary between the two companies. For example, Microsoft's
+guidelines might include considerations specific to mobile development, such as performance optimizations or
+platform-specific APIs, while Yelp's guidelines may be more general and applicable across different types of 
+software projects.
+
+Good Code Review:
+Link: https://codereview.stackexchange.com/questions/154664/print-a-command-line-argument-100-times 
+Which Review: It is the review with the 13 likes 
+Why it's Good: The reviewer provides general remarks praising the effort and functionality of the original code while also
+offering constructive feedback for improvement. Specific points of improvement are highlighted, such as 
+simplifying the repetition logic and ensuring cleanness of output by avoiding unnecessary trailing spaces.
+The reviewer suggests a proposed solution that addresses the identified issues, including refactoring the 
+repetition logic and improving error handling.
+
+Bad Code Review:
+Link: https://codereview.stackexchange.com/questions/154664/print-a-command-line-argument-100-times
+Which Review: It is the review with the 1 likes 
+Why it's Bad: The review presents a solution that has significant flaws and does not effectively address 
+the original question's requirements. The code does not properly handle long input names, resulting in incorrect output.
+There is a lack of explanation or rationale behind the suggested changes, making it difficult for the original poster 
+to understand the reasoning behind the modifications. The review does not provide constructive criticism or guidance for 
+improvement, making it less helpful for the original poster's learning and development.
+
+Recommendations for Improvement:
+The reviewer could provide more detailed explanations for the suggested changes, helping the original poster understand the 
+reasoning behind the modifications. It would be beneficial to offer alternative solutions or approaches that address 
+the identified issues more effectively. Encouraging the original poster to follow best practices and explaining the 
+benefits of certain coding conventions or techniques could enhance the educational value of the review.
